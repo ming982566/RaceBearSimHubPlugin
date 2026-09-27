@@ -1,5 +1,11 @@
 # Release Notes
 
+## 0.1.4
+
+- Makes all three data-grid headers static and non-focusable.
+- Disables column-header mouse interaction, keyboard focus, and sorting.
+- Reduces all text input fields to a compact 22-pixel height.
+
 ## 0.1.3
 
 - Right-aligns form labels and keeps related inputs close to their labels.
