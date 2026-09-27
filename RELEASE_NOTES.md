@@ -1,5 +1,10 @@
 # Release Notes
 
+## 0.1.10
+
+- Separates maintenance controls and motor status into stable layout columns.
+- Prevents the target, baud-rate, and status texts from overlapping in narrow windows.
+
 ## 0.1.9
 
 - Displays Hardware, Software, and Bootloader Version as unsigned 32-bit values.
