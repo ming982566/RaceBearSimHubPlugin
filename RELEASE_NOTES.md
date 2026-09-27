@@ -1,5 +1,12 @@
 # Release Notes
 
+## 0.1.6
+
+- Routes routine operation results to the runtime log instead of modal dialogs.
+- Logs device refresh, binding, logical-index, and firmware validation issues.
+- Keeps confirmation dialogs only for license deactivation and firmware updates.
+- Keeps modal dialogs for update failures and other blocking errors.
+
 ## 0.1.5
 
 - Moves the license action beside the activation-code input.
