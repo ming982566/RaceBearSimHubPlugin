@@ -1,5 +1,11 @@
 # Release Notes
 
+## 0.1.2
+
+- Runs the independent updater as a Windows application without a console window.
+- Displays live package download progress and percentage in the plugin footer.
+- Retains SHA-256, safe archive extraction, version matching, backup, and rollback checks.
+
 ## 0.1.1
 
 - Adds current and latest plugin version information to the settings footer.
