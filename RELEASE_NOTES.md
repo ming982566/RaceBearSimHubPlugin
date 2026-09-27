@@ -1,5 +1,10 @@
 # Release Notes
 
+## 0.1.9
+
+- Displays Hardware, Software, and Bootloader Version as unsigned 32-bit values.
+- Preserves the raw signed integer representation when writing version parameters.
+
 ## 0.1.8
 
 - Places CAN Baud Rate directly below Node ID in the motor parameter list.
