@@ -1,5 +1,11 @@
 # Release Notes
 
+## 0.1.7
+
+- Routes update-check failures and in-progress warnings to the runtime log.
+- Keeps routine device, binding, and validation feedback nonmodal.
+- Retains dialogs only for explicit confirmations and blocking errors.
+
 ## 0.1.6
 
 - Routes routine operation results to the runtime log instead of modal dialogs.
