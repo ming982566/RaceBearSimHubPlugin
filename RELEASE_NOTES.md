@@ -1,5 +1,12 @@
 # Release Notes
 
+## 0.1.5
+
+- Moves the license action beside the activation-code input.
+- Shows `Activate` when the SDK has no active license and `Deactivate` for a
+  valid perpetual or timed license.
+- Confirms device deactivation before submitting `license.deactivate`.
+
 ## 0.1.4
 
 - Makes all three data-grid headers static and non-focusable.
