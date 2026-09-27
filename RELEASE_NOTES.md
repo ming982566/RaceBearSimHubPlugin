@@ -1,5 +1,12 @@
 # Release Notes
 
+## 0.1.3
+
+- Right-aligns form labels and keeps related inputs close to their labels.
+- Uses compact widths and left alignment for short text and selection fields.
+- Tightens actuator stroke controls and other dense maintenance controls.
+- Matches device, slave, and parameter list backgrounds to the runtime log.
+
 ## 0.1.2
 
 - Runs the independent updater as a Windows application without a console window.
