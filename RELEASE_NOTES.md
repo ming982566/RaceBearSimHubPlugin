@@ -1,5 +1,12 @@
 # Release Notes
 
+## 0.1.8
+
+- Places CAN Baud Rate directly below Node ID in the motor parameter list.
+- Requires Node ID and CAN Baud Rate to be explicitly checked before writing.
+- Keeps both communication-sensitive parameters excluded from “write all” by default.
+- Adds 500K/1000K host baud-rate selection to the maintenance view.
+
 ## 0.1.7
 
 - Routes update-check failures and in-progress warnings to the runtime log.
