@@ -9,5 +9,5 @@
 - Applies updates after SimHub exits through an independent updater.
 - Backs up both plugin and SDK DLLs and rolls back failed replacement.
 
-This is the first public online-update release candidate. The installed
-`0.1.0` baseline is retained for the end-to-end update test.
+This is the first public online-update release. The installed `0.1.0`
+baseline is retained for the end-to-end update test.
