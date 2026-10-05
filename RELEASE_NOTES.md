@@ -1,5 +1,13 @@
 # Release Notes
 
+## 0.1.12
+
+- Version-only release for testing the hardened online update workflow from
+  installed version 0.1.11.
+- Retains signed package verification, safe output shutdown, and durable
+  update transaction recovery introduced in 0.1.11.
+- Uses the same update signing key and matching x86 SDK as 0.1.11.
+
 ## 0.1.11
 
 - Adds RSA-3072/SHA-256 signed update manifests and strict package file
