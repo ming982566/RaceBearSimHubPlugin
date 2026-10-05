@@ -1,5 +1,14 @@
 # Release Notes
 
+## 0.1.11
+
+- Adds RSA-3072/SHA-256 signed update manifests and strict package file
+  verification.
+- Adds durable updater journal recovery with complete rollback after
+  interrupted or partially applied replacements.
+- Requires the plugin to prepare a safe output shutdown before SimHub exits
+  and requires deployment to wait for all target files to become unlocked.
+
 ## 0.1.10
 
 - Separates maintenance controls and motor status into stable layout columns.
