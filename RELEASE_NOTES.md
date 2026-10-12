@@ -1,5 +1,12 @@
 # Release Notes
 
+## 0.1.14
+
+- Adds a configurable CAN idle-disable timeout to the SimHub plugin.
+- Defaults the timeout to 60 seconds after UDP timeout parking and disconnect;
+  entering `0` disables SDK idle disable.
+- Keeps initial CAN connection gated by the first valid UDP frame.
+
 ## 0.1.13
 
 - Refreshes the bundled x86 `RaceBearSDK.dll` from the current SDK `0.6.0`
