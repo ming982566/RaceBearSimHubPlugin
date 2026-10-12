@@ -1,5 +1,12 @@
 # Release Notes
 
+## 0.1.13
+
+- Refreshes the bundled x86 `RaceBearSDK.dll` from the current SDK `0.6.0`
+  Win32 Release build.
+- Keeps the signed manifest, safe output shutdown, updater rollback, and
+  normal SimHub exit flow from `0.1.12`.
+
 ## 0.1.12
 
 - Version-only release for testing the hardened online update workflow from
