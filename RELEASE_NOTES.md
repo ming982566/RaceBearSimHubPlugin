@@ -1,5 +1,14 @@
 # Release Notes
 
+## 0.1.15
+
+- Fixes incorrect decoding of valid 9-16 bit SimHub binary axis values.
+  Binary input now consistently follows the specified little-endian format,
+  preventing position changes from switching the detected byte order.
+- Preserves 8 bit, legacy text, and comma-separated binary input support.
+- Includes the matching x86 SDK and versioned updater in the signed update
+  package. Existing configuration is retained; no parameter changes are needed.
+
 ## 0.1.14
 
 - Adds a configurable CAN idle-disable timeout to the SimHub plugin.
