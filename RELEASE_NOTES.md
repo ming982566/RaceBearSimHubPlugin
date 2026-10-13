@@ -1,5 +1,14 @@
 # Release Notes
 
+## 0.1.16
+
+- Corrects the byte order regression introduced in 0.1.15: SimHub compact
+  Binary axis output uses big-endian bytes. The wrong decoding could map the
+  midpoint close to full stroke and turn small changes into large position jumps.
+- Keeps byte order fixed, preserves 8 bit and legacy input compatibility,
+  and validates decoding and position mapping with the actual SimHub encoder.
+- Recommended for users of 0.1.15. No configuration changes are required.
+
 ## 0.1.15
 
 - Fixes incorrect decoding of valid 9-16 bit SimHub binary axis values.
@@ -8,6 +17,9 @@
 - Preserves 8 bit, legacy text, and comma-separated binary input support.
 - Includes the matching x86 SDK and versioned updater in the signed update
   package. Existing configuration is retained; no parameter changes are needed.
+
+The little-endian assumption in 0.1.15 was incorrect for SimHub compact Binary
+output and is superseded by 0.1.16.
 
 ## 0.1.14
 
