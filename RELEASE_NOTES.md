@@ -1,5 +1,14 @@
 # Release Notes
 
+## 0.1.17
+
+- Adds motor parameter synchronization in the maintenance view.
+- Filters synchronization targets to motors with the same parameter profile and
+  synchronizes only writable, selected values or all safe writable values.
+- Pre-reads the target, writes only differences, verifies each write, and saves
+  the target through the SDK while excluding Node-ID and CAN baud-rate changes.
+- Includes the matching x86 SDK and updater in the signed update package.
+
 ## 0.1.16
 
 - Corrects the byte order regression introduced in 0.1.15: SimHub compact
