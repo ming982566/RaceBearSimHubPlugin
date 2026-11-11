@@ -1,5 +1,21 @@
 # Release Notes
 
+## 0.1.18
+
+- Migrates all 56 SDK business calls to the unified object ABI. The plugin now
+  imports only the ten supported SDK entry points.
+- Validates the object protocol and every required service signature before
+  initialization and update startup confirmation. Startup logs identify the
+  loaded SDK path, version and SHA256.
+- Preserves UDP parsing, position mapping, parking, CAN recovery, maintenance,
+  motor parameter synchronization and firmware workflows. Native calls use
+  independent buffers and UTF-8 text.
+- Includes SDK 1.0.3 as a matching Win32 build and updater 0.1.18 in the signed
+  package. Always update the plugin and SDK together; the new SDK cannot be
+  used with an older plugin. Existing user settings are retained.
+- Offline ABI, concurrent-call, actual SimHub encoder and signed updater tests
+  passed. Physical motion, fault recovery and parking require hardware validation.
+
 ## 0.1.17
 
 - Adds motor parameter synchronization in the maintenance view.

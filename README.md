@@ -24,3 +24,15 @@ SimHub exits and both installed DLLs are unlocked.
 
 The updater does not force-terminate SimHub. Keep the motion platform and CAN
 devices in a safe state before starting an update.
+
+## SDK Compatibility
+
+Starting with plugin 0.1.18, the plugin uses the SDK's ten-entry unified object
+ABI. Update `RaceBearSimHubPlugin.dll` and its matching x86 `RaceBearSDK.dll`
+together. Older plugins depend on removed SDK entry points and cannot use the
+new SDK independently.
+
+Before initialization, the plugin checks the protocol and all required service
+contracts. Startup logs include the actual loaded SDK path, version and SHA256
+to help diagnose incorrect or mixed DLL deployments. UDP input format and
+existing user settings are unchanged.
